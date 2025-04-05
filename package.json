@@ -1,0 +1,30 @@
+{
+    "name": "projectstore",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon backend/server.js",
+        "start": "node backend/server.js",
+        "build": "npm install && npm run build-frontend",
+        "build-frontend": "npm install --prefix frontend && npm run build --prefix frontend",
+        "deploy": "npm run build && npm start"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "dependencies": {
+        "@chakra-ui/react": "^2.10.7",
+        "@emotion/react": "^11.14.0",
+        "@emotion/styled": "^11.14.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "framer-motion": "^12.6.3",
+        "mongoose": "^8.13.1"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.9"
+    }
+}
