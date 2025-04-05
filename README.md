@@ -1,19 +1,37 @@
-# Product Management Web App
+# 🛒 Product Management System (CRUD Operations)
 
-This is a simple full-stack web application that allows users to manage products with basic CRUD (Create, Read, Update, Delete) operations. The app allows adding, viewing, updating, and deleting products from an inventory system. Each product consists of a **name**, **price**, and an **image**.
+![Product Dashboard Screenshot](./screenshots/dashboard.png)
 
-- **Frontend**: React (JavaScript) using Vite for fast development and bundling.
-- **Backend**: Node.js with ES Modules (using `import`/`export` syntax), connected to a **MongoDB** database for storing product data.
+A complete product management application with user-generated content and full CRUD functionality, built with Chakra UI for beautiful, accessible components.
 
-## Features
+## 🚀 Live Demo
 
-- **Add Products**: Users can add new products to the inventory with name, price, and an image.
-- **View Products**: Display a list of all products with the option to filter and search.
-- **Update Products**: Edit existing product details such as name, price, and image.
-- **Delete Products**: Remove products from the inventory.
+[![Netflix Clone Demo](https://img.shields.io/badge/Demo-Live-green?style=for-the-badge)](https://productstore-wxfa.onrender.com/) <!-- Replace with your actual demo link -->
 
-## Technologies Used
+## ✨ Features
 
-- **Frontend**: React (JavaScript), Vite (for faster builds and development)
-- **Backend**: Node.js with Express.js (using ES Modules)
-- **Database**: MongoDB (using Mongoose for schema and model management)
+-   **User-Created Products** - Add/manage your own products
+-   **Full CRUD Operations** - Create, Read, Update, and Delete products
+-   **Image Uploads** - Store product photos
+-   **Responsive Dashboard** - Built with Chakra UI's responsive props
+-   **Accessible Components** - Chakra UI's accessibility-first approach
+-   **Dark/Light Mode** - Built-in theme support
+
+## 🛠 Tech Stack
+
+**Frontend**  
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react)
+![Vite](https://img.shields.io/badge/Vite-B73BFE?style=flat&logo=vite)
+![Chakra UI](https://img.shields.io/badge/Chakra_UI-319795?style=flat&logo=chakraui)
+
+**Backend**  
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs)
+![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb)
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+-   Node.js (v18+ recommended)
+-   MongoDB (local or [Atlas](https://www.mongodb.com/atlas))
