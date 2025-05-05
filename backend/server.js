@@ -29,10 +29,10 @@ app.use("/api/v1/", productRoutes);
 // Serve static files in production
 if (process.env.NODE_ENV === "production") {
     // Serve static files from the public folder
-    app.use(express.static(path.join(__dirname, "backend/public")));
+    app.use(express.static(path.join(__dirname, "frontend/dist")));
     // Enhanced catch-all with error handling
-    const filePath = path.join(__dirname, "backend", "public", "index.html");
-    console.log("Attempting to serve:", filePath);
+    const filePath = path.join(__dirname, "frontend/dist", "index.html");
+    // console.log("Attempting to serve:", filePath);
     app.get("/*", (req, res) => {
         res.sendFile(filePath, (err) => {
             if (err) {
